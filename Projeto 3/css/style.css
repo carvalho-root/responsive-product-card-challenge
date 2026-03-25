@@ -1,0 +1,126 @@
+
+:root {
+ 
+  --bg-dark: #091a2b;          /* Azul marinho profundo do oceano (Fundo do Card) */
+  --bg-card: #1b263b;          /* Azul escuro suave (Corpo do Card) */
+ 
+  --accent-cyan: #00d1ff;      /* Cor do texto em destaque */
+  --text-main: #ffffff;        /* Branco puro para o H1 */
+  --text-label: #7b8ea3;       /* Azul acinzentado para as legendas (ex: "HOTÉIS") */
+
+  
+  --image-overlay: rgba(0, 209, 255, 0.4); 
+
+  --font-family: "Inter", sans-serif;
+  
+}
+
+
+html, body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0px;
+}
+
+.background {
+    background-color: var(--bg-dark);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+
+.card {
+    display: flex; 
+    background: var(--bg-card);
+    width: 90%; 
+    max-width: 1100px; 
+    border-radius: .7rem;
+    overflow: hidden; 
+}
+
+/* Imagem */
+
+.imagem {
+    flex: 1.5;
+    display: flex;
+    border-radius: 0 .7rem .7rem 0;
+    overflow: hidden;
+}
+
+.imagem img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    opacity: .75;
+}
+
+ /* Textos */
+
+
+.conteudo-texto {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-main);
+    padding: 50px;
+    
+}
+
+.conteudo-texto h1 {
+    font-size: 2.5rem;
+}
+
+.conteudo-texto p {
+    font-size: 1.2rem;
+}
+
+.paraiso {
+    color: var(--accent-cyan);
+}
+
+.FContainer-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+.stat-item h2 {
+    color:var(--text-main);
+    margin-bottom: -15px;
+    font-size: 1.5rem;
+    
+}
+ 
+.stat-item p {
+    color: var(--text-label);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    
+}
+
+
+/* celulares */
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 95%;
+        flex-direction: column-reverse;
+    }
+
+    .conteudo-texto {
+        text-align: center;
+        padding: 25px;
+    }
+
+    .FContainer-stats {
+        flex-direction: column;
+        gap: 1.3rem;
+    }
+}
