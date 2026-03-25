@@ -29,7 +29,8 @@ Desenvolver este projeto me permitiu aprofundar em conceitos cruciais:
 
 Você pode visualizar o projeto online através do link abaixo:
 
-👉 **[Acesse o Projeto na Vercel]()**
+👉 **[Acesse o Projeto na Vercel](Deployment
+responsive-product-card-challenge-os7wcpywm.vercel.app)**
 
 ---
 Desenvolvido por **Davi Bonfin de Carvalho** - Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/davi-carvalho10/)!
