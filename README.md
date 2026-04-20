@@ -1,35 +1,51 @@
+>[!IMPORTANT]
+>
+>Status: ✅ Completed
+>
+>[Read in English](/README.md) | [Leia em Português](/readme.pt-br.md)
+&nbsp;
 # 🏝️ Cancun Travel Card - Responsive Design
 
-Este é o meu primeiro projeto focado 100% em **Responsividade** e **Clean Code**. O objetivo foi construir um componente de card de viagens que se adapta perfeitamente a diferentes tamanhos de tela, garantindo uma experiência de usuário fluida e moderna.
+This is my firt Challenge focus on **Responsivity** and **Clean Code**. The goal was to build a travel card component that adapts seamlessly to different screen sizes, ensuring a smooth and modern user experience.
 
 
+## 🚀 Technologies Used
 
-## 🚀 Tecnologias Utilizadas
+For this project, I focused on using core web technologies in an advanced way:
 
-Para este projeto, foquei em utilizar tecnologias fundamentais da web de forma avançada:
+- **Semantic HTML5**: Use of structural tags for improved accessibility and SEO.
 
-- **HTML5 Semântico**: Uso de tags estruturais para melhor acessibilidade e SEO.
-- **CSS3 (Custom Properties)**: Utilização de variáveis `:root` para gerenciamento de cores e fonte.
-- **Flexbox Layout**: Gerenciamento dinâmico de eixos para alinhamento e distribuição de conteúdo.
-- **Mobile-First Workflow**: Desenvolvimento focado inicialmente na experiência em dispositivos móveis, expandindo para desktop via **Media Queries**.
+- **CSS3 (Custom Properties)**: Use of `:root` variables for color and font management.
 
-## 🧠 Aprendizados Técnicos
+- **Flexbox Layout**: Dynamic axis management for content alignment and distribution.
 
-Desenvolver este projeto me permitiu aprofundar em conceitos cruciais:
+- **Mobile-First Workflow**: Development initially focused on the mobile experience, expanding to desktop via **Media Queries**.
 
-1. **Arquitetura Flexbox**: Entendi como propriedades como `flex-direction: column-reverse` podem reorganizar o layout para mobile sem alterar a estrutura do HTML.
-2. **Viewport & Scaling**: Configuração correta de meta-tags para renderização em dispositivos móveis.
-3. **Debugging**: Aprimorei minha capacidade de identificar erros de sintaxe e conflitos de seletores CSS através do Inspect Element.
-4. **Box Model & Sizing**: Compreensão profunda de como `padding`, `border` e `margin` afetam o tamanho real dos elementos.
-5. **CSS Inheritance (Herança)**: Aplicação de estilos globais no `body` para reduzir a redundância de código, permitindo que elementos filhos herdem propriedades como `font-family` e `color`.
-6. **Flex Container vs Flex Items**: Domínio da relação entre o "pai" (container) e os "filhos" (itens), entendendo como o `flex: 1` distribui o espaço disponível de forma proporcional.
-7. **Cross-Browser Reset**: Implementação de um reset básico de CSS (`margin: 0; padding: 0;`) para garantir que o projeto tenha a mesma aparência em diferentes navegadores (Chrome, Brave, Firefox).
 
-## 📸 Demonstração
+## 🧠 Technical Takeaways
 
-Você pode visualizar o projeto online através do link abaixo:
+Working on this project allowed me to delve deeper into key concepts:
 
-👉 **[Acesse o Projeto na Vercel](https://responsive-product-card-challenge-os7wcpywm.vercel.app)**
+1. **Flexbox Architecture**: I learned how properties like `flex-direction: column-reverse` can reorganize the layout for mobile devices without altering the HTML structure.
+
+2. **Viewport & Scaling**: Correct configuration of meta tags for rendering on mobile devices.
+
+3. **Debugging**: I improved my ability to identify syntax errors and CSS selector conflicts using Inspect Element.
+
+4. **Box Model & Sizing**: In-depth understanding of how `padding`, `border`, and `margin` affect the actual size of elements.
+
+5. **CSS Inheritance**: Applying global styles to the `body` to reduce code redundancy, allowing child elements to inherit properties such as `font-family` and `color`.
+
+6. **Flex Container vs. Flex Items**: Mastery of the relationship between the “parent” (container) and the “children” (items), understanding how `flex: 1` distributes available space proportionally.
+
+7. **Cross-Browser Reset**: Implementing a basic CSS reset (`margin: 0; padding: 0;`) to ensure the project looks the same across different browsers (Chrome, Brave, Firefox).
+
+
+## 📸 Demo
+
+You can view the project online via the link below:
+
+👉 **[View the challenge on Vercel](https://responsive-product-card-challenge-os7wcpywm.vercel.app)**
 
 ---
-Desenvolvido por **Davi Bonfin de Carvalho** - Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/davi-carvalho10/)!
+Developed by **Davi Bonfin de Carvalho** - Connect with me on [LinkedIn](https://www.linkedin.com/in/davi-carvalho10/)!
